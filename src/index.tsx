@@ -9,4 +9,4 @@ export const rjsfDaisyUiTheme: ThemeProps = {
   widgets,
 };
 
-export const Form = withTheme(rjsfDaisyUiTheme);
+export const DaisyUIForm = withTheme(rjsfDaisyUiTheme);

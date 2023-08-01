@@ -7,9 +7,9 @@ Uses [react-jsonschema-form](https://rjsf-team.github.io/react-jsonschema-form/d
 ```tsx
 import { FormProps } from "@rjsf/utils";
 import validator from "@rjsf/validator-ajv8";
-import { Form } from "smhost-template-forms";
+import { DaisyUIForm } from "smhost-template-forms";
 
 function MyForm(props: FormProps) {
-  return <Form {...props} validator={validator} schema={props.schema} />;
+  return <DaisyUIForm {...props} validator={validator} schema={props.schema} />;
 }
 ```
