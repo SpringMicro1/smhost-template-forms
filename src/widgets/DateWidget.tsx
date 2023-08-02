@@ -2,7 +2,6 @@ import React, { useCallback, useEffect } from "react";
 import { getTemplate, WidgetProps, GenericObjectType } from "@rjsf/utils";
 // @ts-ignore
 import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
 
 /** The `DateWidget` component uses the `BaseInputTemplate` changing the type to `date` and transforms
  * the value to undefined when it is falsy during the `onChange` handling.

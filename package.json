@@ -1,21 +1,20 @@
 {
   "name": "smhost-template-forms",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "DaisyUI + RJSF Forms.",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/SpringMicro1/smhost-template-forms.git"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "rimraf dist && dts build --rollupTypes --format cjs,esm,umd"
   },
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
-  "main": "dist/index.jsx",
-  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/smhost-template-forms.esm.js",
+  "typings": "dist/index.d.ts",
   "author": "David Buckley",
   "license": "MIT",
   "dependencies": {
@@ -32,7 +31,10 @@
     "@types/json-schema": "^7.0.12",
     "@types/lodash": "^4.14.196",
     "@types/node": "^20.4.5",
+    "dts-cli": "^2.0.3",
     "json-schema": "^0.4.0",
+    "rimraf": "^5.0.1",
+    "rollup-plugin-import-css": "^3.3.1",
     "typescript": "^5.1.6"
   }
 }
