@@ -1,6 +1,6 @@
 {
   "name": "smhost-template-forms",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "DaisyUI + RJSF Forms.",
   "type": "module",
   "repository": {
@@ -11,7 +11,8 @@
     "build": "tsc"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "main": "dist/index.jsx",
   "types": "dist/index.d.ts",
