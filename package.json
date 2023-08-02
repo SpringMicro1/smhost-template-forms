@@ -1,6 +1,6 @@
 {
   "name": "smhost-template-forms",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "DaisyUI + RJSF Forms.",
   "type": "module",
   "repository": {
@@ -8,11 +8,10 @@
     "url": "https://github.com/SpringMicro1/smhost-template-forms.git"
   },
   "scripts": {
-    "build": "tsc --module commonjs"
+    "build": "tsc"
   },
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "main": "dist/index.jsx",
   "types": "dist/index.d.ts",
